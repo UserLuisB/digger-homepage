@@ -2,7 +2,6 @@
 
 import { Box, Container, Heading, Text } from "@chakra-ui/react"
 import { motion } from "framer-motion"
-import NextLink from "next/link"
 import { TbMail, TbBrandLinkedin } from "react-icons/tb"
 import type { IconType } from "react-icons"
 
@@ -62,34 +61,38 @@ export default function Contact() {
           maxW="660px"
           mx="auto"
         >
-          {contacts.map(({ label, value, href, icon: Icon, bg, border }) => (
+          {contacts.map(({ value, href, icon: Icon, bg, border }) => (
             <MotionBox
-              key={label}
-              as={NextLink}
-              href={href}
-              target={href.startsWith("mailto") ? undefined : "_blank"}
-              rel="noopener noreferrer"
+              key={href}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              display="flex"
-              alignItems="center"
-              gap={3}
-              px={5}
-              py={3}
-              w="100%"
-              borderRadius="full"
-              style={{
-                background: bg,
-                border: `0.5px solid ${border}`,
-                textDecoration: "none",
-              }}
-              _hover={{ opacity: 0.8 }}
             >
-              <Icon size={20} color="white" />
-              <Text fontSize="sm" fontWeight="medium" color="white">
-                {value}
-              </Text>
+              <a
+                href={href}
+                target={href.startsWith("mailto") ? undefined : "_blank"}
+                rel="noopener noreferrer"
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "12px",
+                  padding: "12px 20px",
+                  borderRadius: "999px",
+                  background: bg,
+                  border: `0.5px solid ${border}`,
+                  textDecoration: "none",
+                  opacity: 1,
+                  transition: "opacity 0.15s",
+                  width: "100%",
+                }}
+                onMouseOver={(e) => (e.currentTarget.style.opacity = "0.8")}
+                onMouseOut={(e) => (e.currentTarget.style.opacity = "1")}
+              >
+                <Icon size={20} color="white" />
+                <Text fontSize="sm" fontWeight="medium" color="white">
+                  {value}
+                </Text>
+              </a>
             </MotionBox>
           ))}
         </Box>
