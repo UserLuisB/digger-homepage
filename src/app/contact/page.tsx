@@ -62,7 +62,7 @@ export default function Contact() {
           maxW="660px"
           mx="auto"
         >
-          {contacts.map(({ label, value, href, icon: Icon, bg, border }, i) => (
+          {contacts.map(({ label, value, href, icon: Icon, bg, border }) => (
             <MotionBox
               key={label}
               as={NextLink}

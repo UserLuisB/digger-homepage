@@ -8,7 +8,6 @@ import {
   Text,
 } from "@chakra-ui/react"
 import Image from "next/image"
-import type { ReactNode } from "react"
 import NextLink from "next/link"
 
 const stackColors: Record<string, string> = {
