@@ -15,7 +15,7 @@ export default function Work() {
         transition={{ duration: 0.5, delay: 0.1 }}
       >
         <Title>
-          LifeOnIce <Badge ml={2}>2024</Badge>
+          LifeOnIce <Badge ml={2}>2024/02/14 - 2024/06/22</Badge>
         </Title>
         <P>A business and advertising page for a famous restaurant.</P>
 

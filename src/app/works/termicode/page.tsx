@@ -15,7 +15,7 @@ export default function Work() {
         transition={{ duration: 0.5, delay: 0.1 }}
       >
         <Title>
-          PayFlow <Badge ml={2}>2026</Badge>
+          TermiCode <Badge ml={2}>2026/05/20 - 2026/06/21</Badge>
         </Title>
         <P>Page for selling accessories</P>
 

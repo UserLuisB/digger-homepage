@@ -15,7 +15,7 @@ export default function Work() {
         transition={{ duration: 0.5, delay: 0.1 }}
       >
         <Title>
-          OmniFood <Badge ml={2}>2024</Badge>
+          OmniFood <Badge ml={2}>2024/07/13 - 2024/11/25</Badge>
         </Title>
         <P>Study Project for a Fitness App</P>
 
