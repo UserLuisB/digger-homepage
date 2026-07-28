@@ -72,7 +72,7 @@ export default function Home() {
             borderColor="whiteAlpha.300"
           >
             <Image
-              src="/pet-logo.jpg"
+              src="/me.png"
               alt="Profile image"
               width={100}
               height={100}
