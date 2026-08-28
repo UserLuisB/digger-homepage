@@ -67,6 +67,17 @@ export default function Navbar() {
               </Button>
             )
           })}
+          <Button
+            asChild
+            size="sm"
+            variant="outline"
+            colorScheme="whiteAlpha"
+            ml={2}
+          >
+            <a href="/cv/CV-LuisBerrio.pdf" download>
+              Descargar CV
+            </a>
+          </Button>
         </HStack>
       </Container>
     </Box>
