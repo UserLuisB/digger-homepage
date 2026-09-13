@@ -74,7 +74,7 @@ export default function Navbar() {
             colorScheme="whiteAlpha"
             ml={2}
           >
-            <a href="/cv/CV-LuisBerrio.pdf" download>
+            <a href="/cv/cv-actualizado.pdf" download>
               Descargar CV
             </a>
           </Button>
