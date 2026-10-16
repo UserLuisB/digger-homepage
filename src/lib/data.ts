@@ -84,4 +84,10 @@ export const projects = [
     thumbnail: "/projects/adminshop-screen.png",
     stack: ["Vue.js", "TypeScript", "SpringBoot"],
   },
+  {
+    title: "SocialNetwork",
+    href: "/works/socialnetwork",
+    thumbnail: "/projects/social-network.png",
+    stack: ["Angular", "TypeScript", "SpringBoot"],
+  },
 ]
