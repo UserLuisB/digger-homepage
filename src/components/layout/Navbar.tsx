@@ -49,7 +49,7 @@ export default function Navbar() {
             <Logo />
           </Heading>
         </Flex>
-        <HStack gap={1} display={{ base: "none", md: "flex" }}>
+        <HStack gap={2} display={{ base: "none", md: "flex" }}>
           {links.map((link) => {
             const isActive = pathname === link.href
             return (
@@ -74,8 +74,13 @@ export default function Navbar() {
             colorScheme="whiteAlpha"
             ml={2}
           >
-            <a href="/cv/cv-actualizado.pdf" download>
+            <a href="/cv/Luis-Berrio-HV.pdf" download>
               Descargar CV
+            </a>
+          </Button>
+          <Button asChild size="sm" variant="outline" colorScheme="whiteAlpha">
+            <a href="/cv/Luis-Berrio-CV-English.pdf" download>
+              Dowload CV in English
             </a>
           </Button>
         </HStack>
