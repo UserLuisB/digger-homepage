@@ -15,7 +15,7 @@ export default function Work() {
         transition={{ duration: 0.5, delay: 0.1 }}
       >
         <Title>
-          PayFlow <Badge ml={2}>2026/01/10 - 2026/05/20</Badge>
+          PayFlow <Badge ml={2}>2026/05/10 - 2026/07/12</Badge>
         </Title>
         <P>A short post where you can comment, like, and upload pictures</P>
 

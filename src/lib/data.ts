@@ -87,7 +87,7 @@ export const projects = [
   {
     title: "SocialNetwork",
     href: "/works/socialnetwork",
-    thumbnail: "/projects/social-network.png",
+    thumbnail: "/projects/social-network-screen.png",
     stack: ["Angular", "TypeScript", "SpringBoot"],
   },
 ]
