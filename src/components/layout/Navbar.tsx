@@ -74,12 +74,12 @@ export default function Navbar() {
             colorScheme="whiteAlpha"
             ml={2}
           >
-            <a href="/cv/Luis-Berrio-HV.pdf" download>
+            <a href="/cv/Luis-Berrio-CV.pdf" download>
               Descargar CV
             </a>
           </Button>
           <Button asChild size="sm" variant="outline" colorScheme="whiteAlpha">
-            <a href="/cv/Luis-Berrio-CV-English.pdf" download>
+            <a href="/cv/Luis-Berrio-English.pdf" download>
               Dowload CV in English
             </a>
           </Button>
