@@ -159,7 +159,7 @@ export default function Home() {
           gap={4}
         >
           <BioSection>
-            <BioYear>2022</BioYear>I worked at Olsoftware as a Middle Developer
+            <BioYear>2020</BioYear>I worked at Olsoftware as a Middle Developer
             Colombia 🇨🇴
           </BioSection>
           <BioSection>
